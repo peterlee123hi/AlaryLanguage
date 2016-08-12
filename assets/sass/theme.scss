@@ -1,12 +1,26 @@
 @import 'materialize/materialize';
 
 /* Global Variables */
-$open-sans: 'Open Sans', sans-serif;
-$montserrat: "Montserrat", sans-serif;
+$roboto: 'Roboto', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
 
 /* Global Styles */
 html {
-  font-family: $open-sans;
+  font-family: $montserrat;
+}
+
+section {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.label {
+  font-family: $roboto;
+  font-weight: 200;
 }
 
 /* Import Custom Styles */
+@import 'navbar';
+@import 'cover';
+@import 'three-column';
+@import 'faq';

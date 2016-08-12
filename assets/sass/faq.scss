@@ -1,0 +1,12 @@
+.faq {
+  .question {
+    line-height: normal !important;
+  }
+
+  .answer {
+    font-family: $roboto;
+    font-weight: 400;
+    font-size: 1.2em;
+    margin: 0;
+  }
+}

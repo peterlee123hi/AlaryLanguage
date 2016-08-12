@@ -7,6 +7,7 @@ var reload = browserSync.reload;
 
 gulp.task('sass', function() {
     var scssStream = gulp.src('assets/sass/theme.scss')
+        .pipe(sass())
         .pipe(concat('style.css'))
         .pipe(minify())
         .pipe(gulp.dest('assets/css'))

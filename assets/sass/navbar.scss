@@ -1,0 +1,32 @@
+nav {
+  font-family: $montserrat;
+  .nav-wrapper {
+    padding-left: 2em;
+    padding-right: 2em;
+
+    .brand-logo {
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+  }
+
+  ul {
+    li {
+      float: none;
+      display: inline-block;
+
+      a {
+        font-size: 1.4em;
+
+        @media #{$large-and-up} {
+          padding-left: 2em;
+          padding-right: 2em;
+        }
+
+        @media #{$small-and-down} {
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
+}
