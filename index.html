@@ -7,16 +7,18 @@
   <title>Alary Language | Learning with a companion.</title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Material+Icons" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Material+Icons" />
+  <link rel="stylesheet" href="assets/css/font-awesome.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
-        <ul class="center">
-          <li><a id="about-link" class="white-text hide-on-small-and-down">About</a></li>
-          <li><a id="faq-link" class="white-text hide-on-small-and-down">FAQ</a></li>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i></a>
+        <ul class="center hide-on-med-and-down">
+          <li><a class="about-link white-text">About</a></li>
+          <li><a class="faq-link white-text">FAQ</a></li>
           <li>
               <a class="white-text dropdown-button" data-activates="lesson-plans">Lesson Plans</a>
               <ul id='lesson-plans' class='dropdown-content'>
@@ -24,6 +26,19 @@
               </ul>
           </li>
           <li><a class="white-text" href="https://goo.gl/forms/TCjDpClLtpwYhnI52" target="_blank">Join</a></li>
+          <li><a class="white-text" href="assets/docs/announcement.pdf" target="_blank">Announcement</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a class="about-link white-text">About</a></li>
+          <li><a class="faq-link white-text">FAQ</a></li>
+          <li>
+              <a class="white-text dropdown-button" data-activates="lesson-plans">Lesson Plans</a>
+              <ul id='lesson-plans' class='dropdown-content'>
+                <li><a class="grey-text text-darken-3" href="./french/">French</a></li>
+              </ul>
+          </li>
+          <li><a class="white-text" href="https://goo.gl/forms/TCjDpClLtpwYhnI52" target="_blank">Join</a></li>
+          <li><a class="white-text" href="assets/docs/announcement.pdf" target="_blank">Announcement</a></li>
         </ul>
       </div>
     </nav>

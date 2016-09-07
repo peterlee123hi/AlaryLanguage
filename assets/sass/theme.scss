@@ -3,6 +3,7 @@
 /* Global Variables */
 $roboto: 'Roboto', sans-serif;
 $montserrat: 'Montserrat', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
 
 /* Global Styles */
 html {
@@ -15,8 +16,8 @@ section {
 }
 
 .label {
-  font-family: $roboto;
-  font-weight: 200;
+  font-family: $open-sans;
+  font-weight: 100;
 }
 
 /* Import Custom Styles */
