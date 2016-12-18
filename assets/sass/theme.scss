@@ -15,6 +15,10 @@ section {
   padding-bottom: 1.5em;
 }
 
+footer.page-footer .footer-copyright {
+		background-color: inherit !important;
+}
+
 .label {
   font-family: $open-sans;
   font-weight: 100;
